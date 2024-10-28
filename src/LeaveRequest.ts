@@ -2,7 +2,7 @@ export interface LeaveRequest{
     nev: string;
     kezdoDatum: Date;
     vegDatum: Date;
-    fizetettE: boolean;
+    fizetettE: string;
     alkalmazottAzon: string;
     indoklas: string;
 }

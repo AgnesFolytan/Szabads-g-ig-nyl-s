@@ -1,8 +1,8 @@
-export class LeaveRequest{
+export class LeaveRequestDto{
     nev: string;
     kezdoDatum: Date;
     vegDatum: Date;
-    fizetettE: boolean;
+    fizetettE: string;
     alkalmazottAzon: string;
     indoklas: string;
 }
